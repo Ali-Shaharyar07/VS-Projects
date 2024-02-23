@@ -43,6 +43,11 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.guna2Transition1 = new Guna.UI2.WinForms.Guna2Transition();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CircleProgressBar3 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
+            this.guna2CircleProgressBar2 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
+            this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TrackBar2 = new Guna.UI2.WinForms.Guna2TrackBar();
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TrackBar1 = new Guna.UI2.WinForms.Guna2TrackBar();
@@ -58,11 +63,6 @@
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.serialTimer = new System.Windows.Forms.Timer(this.components);
-            this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TrackBar2 = new Guna.UI2.WinForms.Guna2TrackBar();
-            this.guna2CircleProgressBar2 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
-            this.guna2CircleProgressBar3 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             this.SuspendLayout();
@@ -285,6 +285,113 @@
             this.guna2Panel3.Size = new System.Drawing.Size(981, 673);
             this.guna2Panel3.TabIndex = 2;
             this.guna2Panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel3_Paint);
+            // 
+            // guna2CircleProgressBar3
+            // 
+            this.guna2CircleProgressBar3.AnimationSpeed = 2F;
+            this.guna2Transition1.SetDecoration(this.guna2CircleProgressBar3, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CircleProgressBar3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+            this.guna2CircleProgressBar3.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.guna2CircleProgressBar3.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleProgressBar3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.guna2CircleProgressBar3.Location = new System.Drawing.Point(615, 237);
+            this.guna2CircleProgressBar3.Maximum = 180;
+            this.guna2CircleProgressBar3.Minimum = 0;
+            this.guna2CircleProgressBar3.Name = "guna2CircleProgressBar3";
+            this.guna2CircleProgressBar3.ProgressColor = System.Drawing.Color.YellowGreen;
+            this.guna2CircleProgressBar3.ProgressColor2 = System.Drawing.Color.LimeGreen;
+            this.guna2CircleProgressBar3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleProgressBar3.Size = new System.Drawing.Size(54, 54);
+            this.guna2CircleProgressBar3.TabIndex = 20;
+            this.guna2CircleProgressBar3.Text = "guna2CircleProgressBar3";
+            this.guna2CircleProgressBar3.Value = 90;
+            // 
+            // guna2CircleProgressBar2
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2CircleProgressBar2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CircleProgressBar2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+            this.guna2CircleProgressBar2.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.guna2CircleProgressBar2.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleProgressBar2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.guna2CircleProgressBar2.Location = new System.Drawing.Point(531, 170);
+            this.guna2CircleProgressBar2.Maximum = 74;
+            this.guna2CircleProgressBar2.Minimum = 1;
+            this.guna2CircleProgressBar2.Name = "guna2CircleProgressBar2";
+            this.guna2CircleProgressBar2.ProgressColor = System.Drawing.Color.YellowGreen;
+            this.guna2CircleProgressBar2.ProgressColor2 = System.Drawing.Color.LimeGreen;
+            this.guna2CircleProgressBar2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleProgressBar2.Size = new System.Drawing.Size(54, 54);
+            this.guna2CircleProgressBar2.TabIndex = 19;
+            this.guna2CircleProgressBar2.Text = "guna2CircleProgressBar2";
+            this.guna2CircleProgressBar2.Value = 38;
+            this.guna2CircleProgressBar2.ValueChanged += new System.EventHandler(this.guna2CircleProgressBar2_ValueChanged);
+            // 
+            // guna2TextBox5
+            // 
+            this.guna2TextBox5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2TextBox5.BorderThickness = 0;
+            this.guna2TextBox5.Cursor = System.Windows.Forms.Cursors.Default;
+            this.guna2Transition1.SetDecoration(this.guna2TextBox5, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2TextBox5.DefaultText = "90";
+            this.guna2TextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox5.FillColor = System.Drawing.SystemColors.Control;
+            this.guna2TextBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox5.Font = new System.Drawing.Font("Poppins Light", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox5.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox5.Location = new System.Drawing.Point(524, 244);
+            this.guna2TextBox5.Margin = new System.Windows.Forms.Padding(5, 9, 5, 9);
+            this.guna2TextBox5.Name = "guna2TextBox5";
+            this.guna2TextBox5.PasswordChar = '\0';
+            this.guna2TextBox5.PlaceholderText = "";
+            this.guna2TextBox5.ReadOnly = true;
+            this.guna2TextBox5.SelectedText = "";
+            this.guna2TextBox5.Size = new System.Drawing.Size(92, 47);
+            this.guna2TextBox5.TabIndex = 18;
+            // 
+            // guna2TextBox6
+            // 
+            this.guna2TextBox6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2TextBox6.BorderThickness = 0;
+            this.guna2TextBox6.Cursor = System.Windows.Forms.Cursors.Default;
+            this.guna2Transition1.SetDecoration(this.guna2TextBox6, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2TextBox6.DefaultText = "Jaw Base";
+            this.guna2TextBox6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox6.FillColor = System.Drawing.SystemColors.Control;
+            this.guna2TextBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox6.Font = new System.Drawing.Font("Poppins", 18F, System.Drawing.FontStyle.Bold);
+            this.guna2TextBox6.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox6.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox6.Location = new System.Drawing.Point(18, 245);
+            this.guna2TextBox6.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
+            this.guna2TextBox6.Name = "guna2TextBox6";
+            this.guna2TextBox6.PasswordChar = '\0';
+            this.guna2TextBox6.PlaceholderText = "";
+            this.guna2TextBox6.ReadOnly = true;
+            this.guna2TextBox6.SelectedText = "";
+            this.guna2TextBox6.Size = new System.Drawing.Size(184, 39);
+            this.guna2TextBox6.TabIndex = 17;
+            // 
+            // guna2TrackBar2
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2TrackBar2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2TrackBar2.LargeChange = 10;
+            this.guna2TrackBar2.Location = new System.Drawing.Point(210, 244);
+            this.guna2TrackBar2.Maximum = 180;
+            this.guna2TrackBar2.Name = "guna2TrackBar2";
+            this.guna2TrackBar2.Size = new System.Drawing.Size(306, 39);
+            this.guna2TrackBar2.SmallChange = 5;
+            this.guna2TrackBar2.TabIndex = 16;
+            this.guna2TrackBar2.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(131)))), ((int)(((byte)(255)))));
+            this.guna2TrackBar2.Value = 90;
+            this.guna2TrackBar2.ValueChanged += new System.EventHandler(this.guna2TrackBar2_ValueChanged);
+            this.guna2TrackBar2.Scroll += new System.Windows.Forms.ScrollEventHandler(this.guna2TrackBar2_Scroll);
             // 
             // guna2TextBox4
             // 
@@ -531,103 +638,6 @@
             // 
             this.serialTimer.Enabled = true;
             this.serialTimer.Tick += new System.EventHandler(this.serialTimer_Tick);
-            // 
-            // guna2TextBox5
-            // 
-            this.guna2TextBox5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox5.BorderThickness = 0;
-            this.guna2TextBox5.Cursor = System.Windows.Forms.Cursors.Default;
-            this.guna2Transition1.SetDecoration(this.guna2TextBox5, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2TextBox5.DefaultText = "90";
-            this.guna2TextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox5.FillColor = System.Drawing.SystemColors.Control;
-            this.guna2TextBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox5.Font = new System.Drawing.Font("Poppins Light", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox5.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox5.Location = new System.Drawing.Point(515, 244);
-            this.guna2TextBox5.Margin = new System.Windows.Forms.Padding(5, 9, 5, 9);
-            this.guna2TextBox5.Name = "guna2TextBox5";
-            this.guna2TextBox5.PasswordChar = '\0';
-            this.guna2TextBox5.PlaceholderText = "";
-            this.guna2TextBox5.ReadOnly = true;
-            this.guna2TextBox5.SelectedText = "";
-            this.guna2TextBox5.Size = new System.Drawing.Size(92, 47);
-            this.guna2TextBox5.TabIndex = 18;
-            // 
-            // guna2TextBox6
-            // 
-            this.guna2TextBox6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox6.BorderThickness = 0;
-            this.guna2TextBox6.Cursor = System.Windows.Forms.Cursors.Default;
-            this.guna2Transition1.SetDecoration(this.guna2TextBox6, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2TextBox6.DefaultText = "Jaw Base";
-            this.guna2TextBox6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox6.FillColor = System.Drawing.SystemColors.Control;
-            this.guna2TextBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox6.Font = new System.Drawing.Font("Poppins", 18F, System.Drawing.FontStyle.Bold);
-            this.guna2TextBox6.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox6.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox6.Location = new System.Drawing.Point(18, 245);
-            this.guna2TextBox6.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
-            this.guna2TextBox6.Name = "guna2TextBox6";
-            this.guna2TextBox6.PasswordChar = '\0';
-            this.guna2TextBox6.PlaceholderText = "";
-            this.guna2TextBox6.ReadOnly = true;
-            this.guna2TextBox6.SelectedText = "";
-            this.guna2TextBox6.Size = new System.Drawing.Size(190, 39);
-            this.guna2TextBox6.TabIndex = 17;
-            // 
-            // guna2TrackBar2
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2TrackBar2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2TrackBar2.LargeChange = 10;
-            this.guna2TrackBar2.Location = new System.Drawing.Point(201, 244);
-            this.guna2TrackBar2.Maximum = 180;
-            this.guna2TrackBar2.Name = "guna2TrackBar2";
-            this.guna2TrackBar2.Size = new System.Drawing.Size(306, 39);
-            this.guna2TrackBar2.SmallChange = 5;
-            this.guna2TrackBar2.TabIndex = 16;
-            this.guna2TrackBar2.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(131)))), ((int)(((byte)(255)))));
-            this.guna2TrackBar2.Value = 90;
-            this.guna2TrackBar2.ValueChanged += new System.EventHandler(this.guna2TrackBar2_ValueChanged);
-            this.guna2TrackBar2.Scroll += new System.Windows.Forms.ScrollEventHandler(this.guna2TrackBar2_Scroll);
-            // 
-            // guna2CircleProgressBar2
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CircleProgressBar2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CircleProgressBar2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            this.guna2CircleProgressBar2.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.guna2CircleProgressBar2.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleProgressBar2.Location = new System.Drawing.Point(531, 170);
-            this.guna2CircleProgressBar2.Maximum = 74;
-            this.guna2CircleProgressBar2.Minimum = 1;
-            this.guna2CircleProgressBar2.Name = "guna2CircleProgressBar2";
-            this.guna2CircleProgressBar2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleProgressBar2.Size = new System.Drawing.Size(54, 54);
-            this.guna2CircleProgressBar2.TabIndex = 19;
-            this.guna2CircleProgressBar2.Text = "guna2CircleProgressBar2";
-            this.guna2CircleProgressBar2.Value = 1;
-            // 
-            // guna2CircleProgressBar3
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2CircleProgressBar3, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CircleProgressBar3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            this.guna2CircleProgressBar3.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.guna2CircleProgressBar3.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleProgressBar3.Location = new System.Drawing.Point(615, 237);
-            this.guna2CircleProgressBar3.Minimum = 0;
-            this.guna2CircleProgressBar3.Name = "guna2CircleProgressBar3";
-            this.guna2CircleProgressBar3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleProgressBar3.Size = new System.Drawing.Size(54, 54);
-            this.guna2CircleProgressBar3.TabIndex = 20;
-            this.guna2CircleProgressBar3.Text = "guna2CircleProgressBar3";
             // 
             // ARM
             // 

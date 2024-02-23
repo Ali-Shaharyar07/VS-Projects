@@ -230,6 +230,11 @@ namespace HomeGuna
             guna2TextBox5.Text = guna2TrackBar2.Value.ToString();
         }
 
+        private void guna2CircleProgressBar2_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void guna2ComboBox1_DropDown(object sender, EventArgs e)
         {
             guna2ComboBox1.Items.Clear();
