@@ -29,71 +29,72 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Guna.UI2.AnimatorNS.Animation animation2 = new Guna.UI2.AnimatorNS.Animation();
+            Guna.UI2.AnimatorNS.Animation animation5 = new Guna.UI2.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DHT));
-            DevExpress.XtraGauges.Core.Model.ArcScaleRange arcScaleRange10 = new DevExpress.XtraGauges.Core.Model.ArcScaleRange();
-            DevExpress.XtraGauges.Core.Model.ArcScaleRange arcScaleRange11 = new DevExpress.XtraGauges.Core.Model.ArcScaleRange();
-            DevExpress.XtraGauges.Core.Model.ArcScaleRange arcScaleRange12 = new DevExpress.XtraGauges.Core.Model.ArcScaleRange();
-            DevExpress.XtraGauges.Core.Model.ArcScaleRange arcScaleRange13 = new DevExpress.XtraGauges.Core.Model.ArcScaleRange();
-            DevExpress.XtraGauges.Core.Model.ArcScaleRange arcScaleRange14 = new DevExpress.XtraGauges.Core.Model.ArcScaleRange();
-            DevExpress.XtraGauges.Core.Model.ArcScaleRange arcScaleRange15 = new DevExpress.XtraGauges.Core.Model.ArcScaleRange();
-            DevExpress.XtraGauges.Core.Model.ArcScaleRange arcScaleRange16 = new DevExpress.XtraGauges.Core.Model.ArcScaleRange();
-            DevExpress.XtraGauges.Core.Model.ArcScaleRange arcScaleRange17 = new DevExpress.XtraGauges.Core.Model.ArcScaleRange();
-            DevExpress.XtraGauges.Core.Model.ArcScaleRange arcScaleRange18 = new DevExpress.XtraGauges.Core.Model.ArcScaleRange();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState51 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState52 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleLabel scaleLabel2 = new DevExpress.XtraGauges.Core.Model.ScaleLabel();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState53 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState54 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState55 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState56 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState57 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState58 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState59 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState60 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState61 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState62 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState63 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState64 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState65 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState66 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState67 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState68 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState69 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState70 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState71 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState72 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState73 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState74 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState75 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState76 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState77 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState78 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState79 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState80 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState81 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState82 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState83 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState84 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState85 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState86 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState87 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState88 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState89 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState90 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState91 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState92 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState93 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState94 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState95 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState96 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState97 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState98 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState99 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
-            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState100 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ArcScaleRange arcScaleRange37 = new DevExpress.XtraGauges.Core.Model.ArcScaleRange();
+            DevExpress.XtraGauges.Core.Model.ArcScaleRange arcScaleRange38 = new DevExpress.XtraGauges.Core.Model.ArcScaleRange();
+            DevExpress.XtraGauges.Core.Model.ArcScaleRange arcScaleRange39 = new DevExpress.XtraGauges.Core.Model.ArcScaleRange();
+            DevExpress.XtraGauges.Core.Model.ArcScaleRange arcScaleRange40 = new DevExpress.XtraGauges.Core.Model.ArcScaleRange();
+            DevExpress.XtraGauges.Core.Model.ArcScaleRange arcScaleRange41 = new DevExpress.XtraGauges.Core.Model.ArcScaleRange();
+            DevExpress.XtraGauges.Core.Model.ArcScaleRange arcScaleRange42 = new DevExpress.XtraGauges.Core.Model.ArcScaleRange();
+            DevExpress.XtraGauges.Core.Model.ArcScaleRange arcScaleRange43 = new DevExpress.XtraGauges.Core.Model.ArcScaleRange();
+            DevExpress.XtraGauges.Core.Model.ArcScaleRange arcScaleRange44 = new DevExpress.XtraGauges.Core.Model.ArcScaleRange();
+            DevExpress.XtraGauges.Core.Model.ArcScaleRange arcScaleRange45 = new DevExpress.XtraGauges.Core.Model.ArcScaleRange();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState201 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState202 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleLabel scaleLabel5 = new DevExpress.XtraGauges.Core.Model.ScaleLabel();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState203 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState204 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState205 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState206 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState207 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState208 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState209 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState210 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState211 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState212 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState213 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState214 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState215 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState216 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState217 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState218 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState219 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState220 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState221 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState222 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState223 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState224 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState225 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState226 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState227 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState228 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState229 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState230 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState231 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState232 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState233 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState234 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState235 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState236 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState237 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState238 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState239 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState240 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState241 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState242 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState243 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState244 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState245 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState246 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState247 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState248 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState249 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
+            DevExpress.XtraGauges.Core.Model.ScaleIndicatorState scaleIndicatorState250 = new DevExpress.XtraGauges.Core.Model.ScaleIndicatorState();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton3 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
@@ -170,7 +171,6 @@
             this.Level_TheWave = new DevExpress.XtraGauges.Win.Gauges.Linear.LinearGauge();
             this.digitalGauge1 = new DevExpress.XtraGauges.Win.Gauges.Digital.DigitalGauge();
             this.digitalBackgroundLayerComponent1 = new DevExpress.XtraGauges.Win.Gauges.Digital.DigitalBackgroundLayerComponent();
-            this.guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.circularGauge2)).BeginInit();
@@ -246,6 +246,33 @@
             this.guna2Panel1.TabIndex = 0;
             this.guna2Panel1.MouseEnter += new System.EventHandler(this.guna2Panel1_MouseHover);
             this.guna2Panel1.MouseLeave += new System.EventHandler(this.guna2Panel1_MouseLeave);
+            // 
+            // guna2GradientButton4
+            // 
+            this.guna2Transition1.SetDecoration(this.guna2GradientButton4, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2GradientButton4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton4.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2GradientButton4.FillColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton4.FillColor2 = System.Drawing.Color.Transparent;
+            this.guna2GradientButton4.Font = new System.Drawing.Font("Poppins Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton4.ForeColor = System.Drawing.Color.Black;
+            this.guna2GradientButton4.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(150)))), ((int)(((byte)(255)))));
+            this.guna2GradientButton4.HoverState.FillColor2 = System.Drawing.Color.DodgerBlue;
+            this.guna2GradientButton4.Image = global::HomeGuna.Properties.Resources.Robotic_Arm;
+            this.guna2GradientButton4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2GradientButton4.ImageOffset = new System.Drawing.Point(2, 0);
+            this.guna2GradientButton4.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2GradientButton4.Location = new System.Drawing.Point(0, 294);
+            this.guna2GradientButton4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2GradientButton4.Name = "guna2GradientButton4";
+            this.guna2GradientButton4.Size = new System.Drawing.Size(197, 46);
+            this.guna2GradientButton4.TabIndex = 7;
+            this.guna2GradientButton4.Text = "Servo Arm";
+            this.guna2GradientButton4.TextOffset = new System.Drawing.Point(26, 4);
+            this.guna2GradientButton4.Click += new System.EventHandler(this.guna2GradientButton4_Click);
             // 
             // guna2GradientButton3
             // 
@@ -363,22 +390,22 @@
             // 
             this.guna2Transition1.AnimationType = Guna.UI2.AnimatorNS.AnimationType.Scale;
             this.guna2Transition1.Cursor = null;
-            animation2.AnimateOnlyDifferences = true;
-            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
-            animation2.LeafCoeff = 0F;
-            animation2.MaxTime = 1F;
-            animation2.MinTime = 0F;
-            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
-            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
-            animation2.MosaicSize = 0;
-            animation2.Padding = new System.Windows.Forms.Padding(0);
-            animation2.RotateCoeff = 0F;
-            animation2.RotateLimit = 0F;
-            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
-            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
-            animation2.TimeCoeff = 0F;
-            animation2.TransparencyCoeff = 0F;
-            this.guna2Transition1.DefaultAnimation = animation2;
+            animation5.AnimateOnlyDifferences = true;
+            animation5.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.BlindCoeff")));
+            animation5.LeafCoeff = 0F;
+            animation5.MaxTime = 1F;
+            animation5.MinTime = 0F;
+            animation5.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicCoeff")));
+            animation5.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicShift")));
+            animation5.MosaicSize = 0;
+            animation5.Padding = new System.Windows.Forms.Padding(0);
+            animation5.RotateCoeff = 0F;
+            animation5.RotateLimit = 0F;
+            animation5.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.ScaleCoeff")));
+            animation5.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.SlideCoeff")));
+            animation5.TimeCoeff = 0F;
+            animation5.TransparencyCoeff = 0F;
+            this.guna2Transition1.DefaultAnimation = animation5;
             // 
             // guna2Panel3
             // 
@@ -500,31 +527,31 @@
             this.arcScaleComponent3.Name = "scale1";
             this.arcScaleComponent3.RadiusX = 101F;
             this.arcScaleComponent3.RadiusY = 100.5F;
-            arcScaleRange10.AppearanceRange.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#9BBB59");
-            arcScaleRange10.EndThickness = 22F;
-            arcScaleRange10.EndValue = 33F;
-            arcScaleRange10.Name = "Range0";
-            arcScaleRange10.ShapeOffset = -4F;
-            arcScaleRange10.StartThickness = 22F;
-            arcScaleRange10.StartValue = -0.2F;
-            arcScaleRange11.AppearanceRange.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#F4F56B");
-            arcScaleRange11.EndThickness = 22F;
-            arcScaleRange11.EndValue = 66F;
-            arcScaleRange11.Name = "Range1";
-            arcScaleRange11.ShapeOffset = -4F;
-            arcScaleRange11.StartThickness = 22F;
-            arcScaleRange11.StartValue = 33F;
-            arcScaleRange12.AppearanceRange.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#E73141");
-            arcScaleRange12.EndThickness = 22F;
-            arcScaleRange12.EndValue = 100.2F;
-            arcScaleRange12.Name = "Range2";
-            arcScaleRange12.ShapeOffset = -4F;
-            arcScaleRange12.StartThickness = 22F;
-            arcScaleRange12.StartValue = 66F;
+            arcScaleRange37.AppearanceRange.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#9BBB59");
+            arcScaleRange37.EndThickness = 22F;
+            arcScaleRange37.EndValue = 33F;
+            arcScaleRange37.Name = "Range0";
+            arcScaleRange37.ShapeOffset = -4F;
+            arcScaleRange37.StartThickness = 22F;
+            arcScaleRange37.StartValue = -0.2F;
+            arcScaleRange38.AppearanceRange.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#F4F56B");
+            arcScaleRange38.EndThickness = 22F;
+            arcScaleRange38.EndValue = 66F;
+            arcScaleRange38.Name = "Range1";
+            arcScaleRange38.ShapeOffset = -4F;
+            arcScaleRange38.StartThickness = 22F;
+            arcScaleRange38.StartValue = 33F;
+            arcScaleRange39.AppearanceRange.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#E73141");
+            arcScaleRange39.EndThickness = 22F;
+            arcScaleRange39.EndValue = 100.2F;
+            arcScaleRange39.Name = "Range2";
+            arcScaleRange39.ShapeOffset = -4F;
+            arcScaleRange39.StartThickness = 22F;
+            arcScaleRange39.StartValue = 66F;
             this.arcScaleComponent3.Ranges.AddRange(new DevExpress.XtraGauges.Core.Model.IRange[] {
-            arcScaleRange10,
-            arcScaleRange11,
-            arcScaleRange12});
+            arcScaleRange37,
+            arcScaleRange38,
+            arcScaleRange39});
             this.arcScaleComponent3.StartAngle = -225F;
             this.arcScaleComponent3.Value = 50F;
             // 
@@ -847,31 +874,31 @@
             this.arcScaleComponent2.Name = "scale1";
             this.arcScaleComponent2.RadiusX = 101F;
             this.arcScaleComponent2.RadiusY = 100.5F;
-            arcScaleRange13.AppearanceRange.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#9BBB59");
-            arcScaleRange13.EndThickness = 22F;
-            arcScaleRange13.EndValue = 33F;
-            arcScaleRange13.Name = "Range0";
-            arcScaleRange13.ShapeOffset = -4F;
-            arcScaleRange13.StartThickness = 22F;
-            arcScaleRange13.StartValue = -0.2F;
-            arcScaleRange14.AppearanceRange.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#F4F56B");
-            arcScaleRange14.EndThickness = 22F;
-            arcScaleRange14.EndValue = 66F;
-            arcScaleRange14.Name = "Range1";
-            arcScaleRange14.ShapeOffset = -4F;
-            arcScaleRange14.StartThickness = 22F;
-            arcScaleRange14.StartValue = 33F;
-            arcScaleRange15.AppearanceRange.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#E73141");
-            arcScaleRange15.EndThickness = 22F;
-            arcScaleRange15.EndValue = 100.2F;
-            arcScaleRange15.Name = "Range2";
-            arcScaleRange15.ShapeOffset = -4F;
-            arcScaleRange15.StartThickness = 22F;
-            arcScaleRange15.StartValue = 66F;
+            arcScaleRange40.AppearanceRange.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#9BBB59");
+            arcScaleRange40.EndThickness = 22F;
+            arcScaleRange40.EndValue = 33F;
+            arcScaleRange40.Name = "Range0";
+            arcScaleRange40.ShapeOffset = -4F;
+            arcScaleRange40.StartThickness = 22F;
+            arcScaleRange40.StartValue = -0.2F;
+            arcScaleRange41.AppearanceRange.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#F4F56B");
+            arcScaleRange41.EndThickness = 22F;
+            arcScaleRange41.EndValue = 66F;
+            arcScaleRange41.Name = "Range1";
+            arcScaleRange41.ShapeOffset = -4F;
+            arcScaleRange41.StartThickness = 22F;
+            arcScaleRange41.StartValue = 33F;
+            arcScaleRange42.AppearanceRange.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#E73141");
+            arcScaleRange42.EndThickness = 22F;
+            arcScaleRange42.EndValue = 100.2F;
+            arcScaleRange42.Name = "Range2";
+            arcScaleRange42.ShapeOffset = -4F;
+            arcScaleRange42.StartThickness = 22F;
+            arcScaleRange42.StartValue = 66F;
             this.arcScaleComponent2.Ranges.AddRange(new DevExpress.XtraGauges.Core.Model.IRange[] {
-            arcScaleRange13,
-            arcScaleRange14,
-            arcScaleRange15});
+            arcScaleRange40,
+            arcScaleRange41,
+            arcScaleRange42});
             this.arcScaleComponent2.StartAngle = -225F;
             this.arcScaleComponent2.Value = 50F;
             // 
@@ -1115,31 +1142,31 @@
             this.arcScaleComponent1.Name = "scale1";
             this.arcScaleComponent1.RadiusX = 101F;
             this.arcScaleComponent1.RadiusY = 100.5F;
-            arcScaleRange16.AppearanceRange.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#9BBB59");
-            arcScaleRange16.EndThickness = 22F;
-            arcScaleRange16.EndValue = 33F;
-            arcScaleRange16.Name = "Range0";
-            arcScaleRange16.ShapeOffset = -4F;
-            arcScaleRange16.StartThickness = 22F;
-            arcScaleRange16.StartValue = -0.2F;
-            arcScaleRange17.AppearanceRange.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#F4F56B");
-            arcScaleRange17.EndThickness = 22F;
-            arcScaleRange17.EndValue = 66F;
-            arcScaleRange17.Name = "Range1";
-            arcScaleRange17.ShapeOffset = -4F;
-            arcScaleRange17.StartThickness = 22F;
-            arcScaleRange17.StartValue = 33F;
-            arcScaleRange18.AppearanceRange.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#E73141");
-            arcScaleRange18.EndThickness = 22F;
-            arcScaleRange18.EndValue = 100.2F;
-            arcScaleRange18.Name = "Range2";
-            arcScaleRange18.ShapeOffset = -4F;
-            arcScaleRange18.StartThickness = 22F;
-            arcScaleRange18.StartValue = 66F;
+            arcScaleRange43.AppearanceRange.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#9BBB59");
+            arcScaleRange43.EndThickness = 22F;
+            arcScaleRange43.EndValue = 33F;
+            arcScaleRange43.Name = "Range0";
+            arcScaleRange43.ShapeOffset = -4F;
+            arcScaleRange43.StartThickness = 22F;
+            arcScaleRange43.StartValue = -0.2F;
+            arcScaleRange44.AppearanceRange.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#F4F56B");
+            arcScaleRange44.EndThickness = 22F;
+            arcScaleRange44.EndValue = 66F;
+            arcScaleRange44.Name = "Range1";
+            arcScaleRange44.ShapeOffset = -4F;
+            arcScaleRange44.StartThickness = 22F;
+            arcScaleRange44.StartValue = 33F;
+            arcScaleRange45.AppearanceRange.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#E73141");
+            arcScaleRange45.EndThickness = 22F;
+            arcScaleRange45.EndValue = 100.2F;
+            arcScaleRange45.Name = "Range2";
+            arcScaleRange45.ShapeOffset = -4F;
+            arcScaleRange45.StartThickness = 22F;
+            arcScaleRange45.StartValue = 66F;
             this.arcScaleComponent1.Ranges.AddRange(new DevExpress.XtraGauges.Core.Model.IRange[] {
-            arcScaleRange16,
-            arcScaleRange17,
-            arcScaleRange18});
+            arcScaleRange43,
+            arcScaleRange44,
+            arcScaleRange45});
             this.arcScaleComponent1.StartAngle = -225F;
             this.arcScaleComponent1.Value = 50F;
             // 
@@ -1170,16 +1197,16 @@
             this.linearScaleStateIndicatorComponent25.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent25.Name = "Indicator24";
             this.linearScaleStateIndicatorComponent25.Size = new System.Drawing.SizeF(7.999997F, 5.865103F);
-            scaleIndicatorState51.IntervalLength = 4.000002F;
-            scaleIndicatorState51.Name = "Colored";
-            scaleIndicatorState51.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
-            scaleIndicatorState51.StartValue = 96F;
-            scaleIndicatorState52.IntervalLength = 96F;
-            scaleIndicatorState52.Name = "Empty";
-            scaleIndicatorState52.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState201.IntervalLength = 4.000002F;
+            scaleIndicatorState201.Name = "Colored";
+            scaleIndicatorState201.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
+            scaleIndicatorState201.StartValue = 96F;
+            scaleIndicatorState202.IntervalLength = 96F;
+            scaleIndicatorState202.Name = "Empty";
+            scaleIndicatorState202.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent25.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState51,
-            scaleIndicatorState52});
+            scaleIndicatorState201,
+            scaleIndicatorState202});
             this.linearScaleStateIndicatorComponent25.ZOrder = 76;
             // 
             // linearScaleComponent1
@@ -1190,16 +1217,16 @@
             this.linearScaleComponent1.AppearanceMinorTickmark.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:White");
             this.linearScaleComponent1.AppearanceTickmarkText.TextBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:Black");
             this.linearScaleComponent1.EndPoint = new DevExpress.XtraGauges.Core.Base.PointF2D(62.5F, 225F);
-            scaleLabel2.AppearanceText.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            scaleLabel2.AppearanceText.TextBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:White");
-            scaleLabel2.FormatString = "{0} {2:P0}";
-            scaleLabel2.Name = "Label0";
-            scaleLabel2.Position = new DevExpress.XtraGauges.Core.Base.PointF2D(25F, 60F);
-            scaleLabel2.Size = new System.Drawing.SizeF(150F, 30F);
-            scaleLabel2.Text = "Level:";
-            scaleLabel2.TextOrientation = DevExpress.XtraGauges.Core.Model.LabelOrientation.BottomToTop;
+            scaleLabel5.AppearanceText.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            scaleLabel5.AppearanceText.TextBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:White");
+            scaleLabel5.FormatString = "{0} {2:P0}";
+            scaleLabel5.Name = "Label0";
+            scaleLabel5.Position = new DevExpress.XtraGauges.Core.Base.PointF2D(25F, 60F);
+            scaleLabel5.Size = new System.Drawing.SizeF(150F, 30F);
+            scaleLabel5.Text = "Level:";
+            scaleLabel5.TextOrientation = DevExpress.XtraGauges.Core.Model.LabelOrientation.BottomToTop;
             this.linearScaleComponent1.Labels.AddRange(new DevExpress.XtraGauges.Core.Model.ILabel[] {
-            scaleLabel2});
+            scaleLabel5});
             this.linearScaleComponent1.MajorTickCount = 2;
             this.linearScaleComponent1.MajorTickmark.FormatString = "{0:F0}";
             this.linearScaleComponent1.MajorTickmark.ShapeOffset = -20F;
@@ -1222,16 +1249,16 @@
             this.linearScaleStateIndicatorComponent24.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent24.Name = "Indicator23";
             this.linearScaleStateIndicatorComponent24.Size = new System.Drawing.SizeF(10.23363F, 5.865103F);
-            scaleIndicatorState53.IntervalLength = 7.999998F;
-            scaleIndicatorState53.Name = "Colored";
-            scaleIndicatorState53.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
-            scaleIndicatorState53.StartValue = 92F;
-            scaleIndicatorState54.IntervalLength = 92F;
-            scaleIndicatorState54.Name = "Empty";
-            scaleIndicatorState54.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState203.IntervalLength = 7.999998F;
+            scaleIndicatorState203.Name = "Colored";
+            scaleIndicatorState203.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
+            scaleIndicatorState203.StartValue = 92F;
+            scaleIndicatorState204.IntervalLength = 92F;
+            scaleIndicatorState204.Name = "Empty";
+            scaleIndicatorState204.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent24.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState53,
-            scaleIndicatorState54});
+            scaleIndicatorState203,
+            scaleIndicatorState204});
             this.linearScaleStateIndicatorComponent24.ZOrder = 77;
             // 
             // linearScaleStateIndicatorComponent23
@@ -1240,16 +1267,16 @@
             this.linearScaleStateIndicatorComponent23.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent23.Name = "Indicator22";
             this.linearScaleStateIndicatorComponent23.Size = new System.Drawing.SizeF(13.67336F, 5.865103F);
-            scaleIndicatorState55.IntervalLength = 12F;
-            scaleIndicatorState55.Name = "Colored";
-            scaleIndicatorState55.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
-            scaleIndicatorState55.StartValue = 88F;
-            scaleIndicatorState56.IntervalLength = 88F;
-            scaleIndicatorState56.Name = "Empty";
-            scaleIndicatorState56.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState205.IntervalLength = 12F;
+            scaleIndicatorState205.Name = "Colored";
+            scaleIndicatorState205.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
+            scaleIndicatorState205.StartValue = 88F;
+            scaleIndicatorState206.IntervalLength = 88F;
+            scaleIndicatorState206.Name = "Empty";
+            scaleIndicatorState206.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent23.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState55,
-            scaleIndicatorState56});
+            scaleIndicatorState205,
+            scaleIndicatorState206});
             this.linearScaleStateIndicatorComponent23.ZOrder = 78;
             // 
             // linearScaleStateIndicatorComponent22
@@ -1258,16 +1285,16 @@
             this.linearScaleStateIndicatorComponent22.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent22.Name = "Indicator21";
             this.linearScaleStateIndicatorComponent22.Size = new System.Drawing.SizeF(18.07019F, 5.865103F);
-            scaleIndicatorState57.IntervalLength = 16F;
-            scaleIndicatorState57.Name = "Colored";
-            scaleIndicatorState57.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
-            scaleIndicatorState57.StartValue = 84F;
-            scaleIndicatorState58.IntervalLength = 84F;
-            scaleIndicatorState58.Name = "Empty";
-            scaleIndicatorState58.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState207.IntervalLength = 16F;
+            scaleIndicatorState207.Name = "Colored";
+            scaleIndicatorState207.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
+            scaleIndicatorState207.StartValue = 84F;
+            scaleIndicatorState208.IntervalLength = 84F;
+            scaleIndicatorState208.Name = "Empty";
+            scaleIndicatorState208.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent22.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState57,
-            scaleIndicatorState58});
+            scaleIndicatorState207,
+            scaleIndicatorState208});
             this.linearScaleStateIndicatorComponent22.ZOrder = 79;
             // 
             // linearScaleStateIndicatorComponent21
@@ -1276,16 +1303,16 @@
             this.linearScaleStateIndicatorComponent21.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent21.Name = "Indicator20";
             this.linearScaleStateIndicatorComponent21.Size = new System.Drawing.SizeF(23.17519F, 5.865103F);
-            scaleIndicatorState59.IntervalLength = 20F;
-            scaleIndicatorState59.Name = "Colored";
-            scaleIndicatorState59.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
-            scaleIndicatorState59.StartValue = 80F;
-            scaleIndicatorState60.IntervalLength = 80F;
-            scaleIndicatorState60.Name = "Empty";
-            scaleIndicatorState60.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState209.IntervalLength = 20F;
+            scaleIndicatorState209.Name = "Colored";
+            scaleIndicatorState209.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
+            scaleIndicatorState209.StartValue = 80F;
+            scaleIndicatorState210.IntervalLength = 80F;
+            scaleIndicatorState210.Name = "Empty";
+            scaleIndicatorState210.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent21.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState59,
-            scaleIndicatorState60});
+            scaleIndicatorState209,
+            scaleIndicatorState210});
             this.linearScaleStateIndicatorComponent21.ZOrder = 80;
             // 
             // linearScaleStateIndicatorComponent20
@@ -1294,16 +1321,16 @@
             this.linearScaleStateIndicatorComponent20.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent20.Name = "Indicator19";
             this.linearScaleStateIndicatorComponent20.Size = new System.Drawing.SizeF(28.73941F, 5.865103F);
-            scaleIndicatorState61.IntervalLength = 24F;
-            scaleIndicatorState61.Name = "Colored";
-            scaleIndicatorState61.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
-            scaleIndicatorState61.StartValue = 76F;
-            scaleIndicatorState62.IntervalLength = 76F;
-            scaleIndicatorState62.Name = "Empty";
-            scaleIndicatorState62.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState211.IntervalLength = 24F;
+            scaleIndicatorState211.Name = "Colored";
+            scaleIndicatorState211.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
+            scaleIndicatorState211.StartValue = 76F;
+            scaleIndicatorState212.IntervalLength = 76F;
+            scaleIndicatorState212.Name = "Empty";
+            scaleIndicatorState212.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent20.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState61,
-            scaleIndicatorState62});
+            scaleIndicatorState211,
+            scaleIndicatorState212});
             this.linearScaleStateIndicatorComponent20.ZOrder = 81;
             // 
             // linearScaleStateIndicatorComponent19
@@ -1312,16 +1339,16 @@
             this.linearScaleStateIndicatorComponent19.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent19.Name = "Indicator18";
             this.linearScaleStateIndicatorComponent19.Size = new System.Drawing.SizeF(34.51389F, 5.865103F);
-            scaleIndicatorState63.IntervalLength = 28F;
-            scaleIndicatorState63.Name = "Colored";
-            scaleIndicatorState63.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
-            scaleIndicatorState63.StartValue = 72F;
-            scaleIndicatorState64.IntervalLength = 72F;
-            scaleIndicatorState64.Name = "Empty";
-            scaleIndicatorState64.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState213.IntervalLength = 28F;
+            scaleIndicatorState213.Name = "Colored";
+            scaleIndicatorState213.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
+            scaleIndicatorState213.StartValue = 72F;
+            scaleIndicatorState214.IntervalLength = 72F;
+            scaleIndicatorState214.Name = "Empty";
+            scaleIndicatorState214.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent19.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState63,
-            scaleIndicatorState64});
+            scaleIndicatorState213,
+            scaleIndicatorState214});
             this.linearScaleStateIndicatorComponent19.ZOrder = 82;
             // 
             // linearScaleStateIndicatorComponent18
@@ -1330,16 +1357,16 @@
             this.linearScaleStateIndicatorComponent18.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent18.Name = "Indicator17";
             this.linearScaleStateIndicatorComponent18.Size = new System.Drawing.SizeF(40.24965F, 5.865103F);
-            scaleIndicatorState65.IntervalLength = 32F;
-            scaleIndicatorState65.Name = "Colored";
-            scaleIndicatorState65.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
-            scaleIndicatorState65.StartValue = 68F;
-            scaleIndicatorState66.IntervalLength = 68F;
-            scaleIndicatorState66.Name = "Empty";
-            scaleIndicatorState66.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState215.IntervalLength = 32F;
+            scaleIndicatorState215.Name = "Colored";
+            scaleIndicatorState215.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
+            scaleIndicatorState215.StartValue = 68F;
+            scaleIndicatorState216.IntervalLength = 68F;
+            scaleIndicatorState216.Name = "Empty";
+            scaleIndicatorState216.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent18.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState65,
-            scaleIndicatorState66});
+            scaleIndicatorState215,
+            scaleIndicatorState216});
             this.linearScaleStateIndicatorComponent18.ZOrder = 83;
             // 
             // linearScaleStateIndicatorComponent17
@@ -1348,16 +1375,16 @@
             this.linearScaleStateIndicatorComponent17.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent17.Name = "Indicator16";
             this.linearScaleStateIndicatorComponent17.Size = new System.Drawing.SizeF(45.69779F, 5.865103F);
-            scaleIndicatorState67.IntervalLength = 36F;
-            scaleIndicatorState67.Name = "Colored";
-            scaleIndicatorState67.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
-            scaleIndicatorState67.StartValue = 64F;
-            scaleIndicatorState68.IntervalLength = 64F;
-            scaleIndicatorState68.Name = "Empty";
-            scaleIndicatorState68.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState217.IntervalLength = 36F;
+            scaleIndicatorState217.Name = "Colored";
+            scaleIndicatorState217.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
+            scaleIndicatorState217.StartValue = 64F;
+            scaleIndicatorState218.IntervalLength = 64F;
+            scaleIndicatorState218.Name = "Empty";
+            scaleIndicatorState218.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent17.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState67,
-            scaleIndicatorState68});
+            scaleIndicatorState217,
+            scaleIndicatorState218});
             this.linearScaleStateIndicatorComponent17.ZOrder = 84;
             // 
             // linearScaleStateIndicatorComponent16
@@ -1366,16 +1393,16 @@
             this.linearScaleStateIndicatorComponent16.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent16.Name = "Indicator15";
             this.linearScaleStateIndicatorComponent16.Size = new System.Drawing.SizeF(50.60934F, 5.865103F);
-            scaleIndicatorState69.IntervalLength = 40F;
-            scaleIndicatorState69.Name = "Colored";
-            scaleIndicatorState69.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
-            scaleIndicatorState69.StartValue = 60F;
-            scaleIndicatorState70.IntervalLength = 60F;
-            scaleIndicatorState70.Name = "Empty";
-            scaleIndicatorState70.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState219.IntervalLength = 40F;
+            scaleIndicatorState219.Name = "Colored";
+            scaleIndicatorState219.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
+            scaleIndicatorState219.StartValue = 60F;
+            scaleIndicatorState220.IntervalLength = 60F;
+            scaleIndicatorState220.Name = "Empty";
+            scaleIndicatorState220.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent16.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState69,
-            scaleIndicatorState70});
+            scaleIndicatorState219,
+            scaleIndicatorState220});
             this.linearScaleStateIndicatorComponent16.ZOrder = 85;
             // 
             // linearScaleStateIndicatorComponent15
@@ -1384,16 +1411,16 @@
             this.linearScaleStateIndicatorComponent15.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent15.Name = "Indicator14";
             this.linearScaleStateIndicatorComponent15.Size = new System.Drawing.SizeF(54.73531F, 5.865103F);
-            scaleIndicatorState71.IntervalLength = 44F;
-            scaleIndicatorState71.Name = "Colored";
-            scaleIndicatorState71.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
-            scaleIndicatorState71.StartValue = 56F;
-            scaleIndicatorState72.IntervalLength = 56F;
-            scaleIndicatorState72.Name = "Empty";
-            scaleIndicatorState72.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState221.IntervalLength = 44F;
+            scaleIndicatorState221.Name = "Colored";
+            scaleIndicatorState221.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer4;
+            scaleIndicatorState221.StartValue = 56F;
+            scaleIndicatorState222.IntervalLength = 56F;
+            scaleIndicatorState222.Name = "Empty";
+            scaleIndicatorState222.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent15.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState71,
-            scaleIndicatorState72});
+            scaleIndicatorState221,
+            scaleIndicatorState222});
             this.linearScaleStateIndicatorComponent15.ZOrder = 86;
             // 
             // linearScaleStateIndicatorComponent14
@@ -1402,16 +1429,16 @@
             this.linearScaleStateIndicatorComponent14.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent14.Name = "Indicator13";
             this.linearScaleStateIndicatorComponent14.Size = new System.Drawing.SizeF(57.82679F, 5.865103F);
-            scaleIndicatorState73.IntervalLength = 48F;
-            scaleIndicatorState73.Name = "Colored";
-            scaleIndicatorState73.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer3;
-            scaleIndicatorState73.StartValue = 52F;
-            scaleIndicatorState74.IntervalLength = 52F;
-            scaleIndicatorState74.Name = "Empty";
-            scaleIndicatorState74.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState223.IntervalLength = 48F;
+            scaleIndicatorState223.Name = "Colored";
+            scaleIndicatorState223.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer3;
+            scaleIndicatorState223.StartValue = 52F;
+            scaleIndicatorState224.IntervalLength = 52F;
+            scaleIndicatorState224.Name = "Empty";
+            scaleIndicatorState224.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent14.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState73,
-            scaleIndicatorState74});
+            scaleIndicatorState223,
+            scaleIndicatorState224});
             this.linearScaleStateIndicatorComponent14.ZOrder = 87;
             // 
             // linearScaleStateIndicatorComponent13
@@ -1420,16 +1447,16 @@
             this.linearScaleStateIndicatorComponent13.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent13.Name = "Indicator12";
             this.linearScaleStateIndicatorComponent13.Size = new System.Drawing.SizeF(59.63482F, 5.865103F);
-            scaleIndicatorState75.IntervalLength = 52F;
-            scaleIndicatorState75.Name = "Colored";
-            scaleIndicatorState75.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer3;
-            scaleIndicatorState75.StartValue = 48F;
-            scaleIndicatorState76.IntervalLength = 48F;
-            scaleIndicatorState76.Name = "Empty";
-            scaleIndicatorState76.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState225.IntervalLength = 52F;
+            scaleIndicatorState225.Name = "Colored";
+            scaleIndicatorState225.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer3;
+            scaleIndicatorState225.StartValue = 48F;
+            scaleIndicatorState226.IntervalLength = 48F;
+            scaleIndicatorState226.Name = "Empty";
+            scaleIndicatorState226.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent13.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState75,
-            scaleIndicatorState76});
+            scaleIndicatorState225,
+            scaleIndicatorState226});
             this.linearScaleStateIndicatorComponent13.ZOrder = 88;
             // 
             // linearScaleStateIndicatorComponent12
@@ -1438,16 +1465,16 @@
             this.linearScaleStateIndicatorComponent12.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent12.Name = "Indicator11";
             this.linearScaleStateIndicatorComponent12.Size = new System.Drawing.SizeF(59.89725F, 5.865103F);
-            scaleIndicatorState77.IntervalLength = 56F;
-            scaleIndicatorState77.Name = "Colored";
-            scaleIndicatorState77.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer3;
-            scaleIndicatorState77.StartValue = 44F;
-            scaleIndicatorState78.IntervalLength = 44F;
-            scaleIndicatorState78.Name = "Empty";
-            scaleIndicatorState78.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState227.IntervalLength = 56F;
+            scaleIndicatorState227.Name = "Colored";
+            scaleIndicatorState227.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer3;
+            scaleIndicatorState227.StartValue = 44F;
+            scaleIndicatorState228.IntervalLength = 44F;
+            scaleIndicatorState228.Name = "Empty";
+            scaleIndicatorState228.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent12.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState77,
-            scaleIndicatorState78});
+            scaleIndicatorState227,
+            scaleIndicatorState228});
             this.linearScaleStateIndicatorComponent12.ZOrder = 89;
             // 
             // linearScaleStateIndicatorComponent11
@@ -1456,16 +1483,16 @@
             this.linearScaleStateIndicatorComponent11.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent11.Name = "Indicator10";
             this.linearScaleStateIndicatorComponent11.Size = new System.Drawing.SizeF(58.38594F, 5.865103F);
-            scaleIndicatorState79.IntervalLength = 60F;
-            scaleIndicatorState79.Name = "Colored";
-            scaleIndicatorState79.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer3;
-            scaleIndicatorState79.StartValue = 40F;
-            scaleIndicatorState80.IntervalLength = 40F;
-            scaleIndicatorState80.Name = "Empty";
-            scaleIndicatorState80.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState229.IntervalLength = 60F;
+            scaleIndicatorState229.Name = "Colored";
+            scaleIndicatorState229.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer3;
+            scaleIndicatorState229.StartValue = 40F;
+            scaleIndicatorState230.IntervalLength = 40F;
+            scaleIndicatorState230.Name = "Empty";
+            scaleIndicatorState230.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent11.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState79,
-            scaleIndicatorState80});
+            scaleIndicatorState229,
+            scaleIndicatorState230});
             this.linearScaleStateIndicatorComponent11.ZOrder = 90;
             // 
             // linearScaleStateIndicatorComponent10
@@ -1474,16 +1501,16 @@
             this.linearScaleStateIndicatorComponent10.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent10.Name = "Indicator9";
             this.linearScaleStateIndicatorComponent10.Size = new System.Drawing.SizeF(55.34014F, 5.865103F);
-            scaleIndicatorState81.IntervalLength = 64F;
-            scaleIndicatorState81.Name = "Colored";
-            scaleIndicatorState81.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer3;
-            scaleIndicatorState81.StartValue = 36F;
-            scaleIndicatorState82.IntervalLength = 36F;
-            scaleIndicatorState82.Name = "Empty";
-            scaleIndicatorState82.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState231.IntervalLength = 64F;
+            scaleIndicatorState231.Name = "Colored";
+            scaleIndicatorState231.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer3;
+            scaleIndicatorState231.StartValue = 36F;
+            scaleIndicatorState232.IntervalLength = 36F;
+            scaleIndicatorState232.Name = "Empty";
+            scaleIndicatorState232.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent10.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState81,
-            scaleIndicatorState82});
+            scaleIndicatorState231,
+            scaleIndicatorState232});
             this.linearScaleStateIndicatorComponent10.ZOrder = 91;
             // 
             // linearScaleStateIndicatorComponent9
@@ -1492,16 +1519,16 @@
             this.linearScaleStateIndicatorComponent9.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent9.Name = "Indicator8";
             this.linearScaleStateIndicatorComponent9.Size = new System.Drawing.SizeF(51.08183F, 5.865103F);
-            scaleIndicatorState83.IntervalLength = 68F;
-            scaleIndicatorState83.Name = "Colored";
-            scaleIndicatorState83.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer3;
-            scaleIndicatorState83.StartValue = 32F;
-            scaleIndicatorState84.IntervalLength = 32F;
-            scaleIndicatorState84.Name = "Empty";
-            scaleIndicatorState84.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState233.IntervalLength = 68F;
+            scaleIndicatorState233.Name = "Colored";
+            scaleIndicatorState233.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer3;
+            scaleIndicatorState233.StartValue = 32F;
+            scaleIndicatorState234.IntervalLength = 32F;
+            scaleIndicatorState234.Name = "Empty";
+            scaleIndicatorState234.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent9.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState83,
-            scaleIndicatorState84});
+            scaleIndicatorState233,
+            scaleIndicatorState234});
             this.linearScaleStateIndicatorComponent9.ZOrder = 92;
             // 
             // linearScaleStateIndicatorComponent8
@@ -1510,16 +1537,16 @@
             this.linearScaleStateIndicatorComponent8.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent8.Name = "Indicator7";
             this.linearScaleStateIndicatorComponent8.Size = new System.Drawing.SizeF(45.93295F, 5.865103F);
-            scaleIndicatorState85.IntervalLength = 72F;
-            scaleIndicatorState85.Name = "Colored";
-            scaleIndicatorState85.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer3;
-            scaleIndicatorState85.StartValue = 28F;
-            scaleIndicatorState86.IntervalLength = 28F;
-            scaleIndicatorState86.Name = "Empty";
-            scaleIndicatorState86.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState235.IntervalLength = 72F;
+            scaleIndicatorState235.Name = "Colored";
+            scaleIndicatorState235.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer3;
+            scaleIndicatorState235.StartValue = 28F;
+            scaleIndicatorState236.IntervalLength = 28F;
+            scaleIndicatorState236.Name = "Empty";
+            scaleIndicatorState236.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent8.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState85,
-            scaleIndicatorState86});
+            scaleIndicatorState235,
+            scaleIndicatorState236});
             this.linearScaleStateIndicatorComponent8.ZOrder = 93;
             // 
             // linearScaleStateIndicatorComponent7
@@ -1528,16 +1555,16 @@
             this.linearScaleStateIndicatorComponent7.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent7.Name = "Indicator6";
             this.linearScaleStateIndicatorComponent7.Size = new System.Drawing.SizeF(40.21549F, 5.865103F);
-            scaleIndicatorState87.IntervalLength = 76F;
-            scaleIndicatorState87.Name = "Colored";
-            scaleIndicatorState87.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer2;
-            scaleIndicatorState87.StartValue = 24F;
-            scaleIndicatorState88.IntervalLength = 24F;
-            scaleIndicatorState88.Name = "Empty";
-            scaleIndicatorState88.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState237.IntervalLength = 76F;
+            scaleIndicatorState237.Name = "Colored";
+            scaleIndicatorState237.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer2;
+            scaleIndicatorState237.StartValue = 24F;
+            scaleIndicatorState238.IntervalLength = 24F;
+            scaleIndicatorState238.Name = "Empty";
+            scaleIndicatorState238.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent7.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState87,
-            scaleIndicatorState88});
+            scaleIndicatorState237,
+            scaleIndicatorState238});
             this.linearScaleStateIndicatorComponent7.ZOrder = 94;
             // 
             // linearScaleStateIndicatorComponent6
@@ -1546,16 +1573,16 @@
             this.linearScaleStateIndicatorComponent6.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent6.Name = "Indicator5";
             this.linearScaleStateIndicatorComponent6.Size = new System.Drawing.SizeF(34.25138F, 5.865103F);
-            scaleIndicatorState89.IntervalLength = 80F;
-            scaleIndicatorState89.Name = "Colored";
-            scaleIndicatorState89.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer2;
-            scaleIndicatorState89.StartValue = 20F;
-            scaleIndicatorState90.IntervalLength = 20F;
-            scaleIndicatorState90.Name = "Empty";
-            scaleIndicatorState90.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState239.IntervalLength = 80F;
+            scaleIndicatorState239.Name = "Colored";
+            scaleIndicatorState239.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer2;
+            scaleIndicatorState239.StartValue = 20F;
+            scaleIndicatorState240.IntervalLength = 20F;
+            scaleIndicatorState240.Name = "Empty";
+            scaleIndicatorState240.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent6.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState89,
-            scaleIndicatorState90});
+            scaleIndicatorState239,
+            scaleIndicatorState240});
             this.linearScaleStateIndicatorComponent6.ZOrder = 95;
             // 
             // linearScaleStateIndicatorComponent5
@@ -1564,16 +1591,16 @@
             this.linearScaleStateIndicatorComponent5.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent5.Name = "Indicator4";
             this.linearScaleStateIndicatorComponent5.Size = new System.Drawing.SizeF(28.36261F, 5.865103F);
-            scaleIndicatorState91.IntervalLength = 84F;
-            scaleIndicatorState91.Name = "Colored";
-            scaleIndicatorState91.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer2;
-            scaleIndicatorState91.StartValue = 16F;
-            scaleIndicatorState92.IntervalLength = 16F;
-            scaleIndicatorState92.Name = "Empty";
-            scaleIndicatorState92.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState241.IntervalLength = 84F;
+            scaleIndicatorState241.Name = "Colored";
+            scaleIndicatorState241.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer2;
+            scaleIndicatorState241.StartValue = 16F;
+            scaleIndicatorState242.IntervalLength = 16F;
+            scaleIndicatorState242.Name = "Empty";
+            scaleIndicatorState242.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent5.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState91,
-            scaleIndicatorState92});
+            scaleIndicatorState241,
+            scaleIndicatorState242});
             this.linearScaleStateIndicatorComponent5.ZOrder = 96;
             // 
             // linearScaleStateIndicatorComponent4
@@ -1582,16 +1609,16 @@
             this.linearScaleStateIndicatorComponent4.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent4.Name = "Indicator3";
             this.linearScaleStateIndicatorComponent4.Size = new System.Drawing.SizeF(22.87111F, 5.865103F);
-            scaleIndicatorState93.IntervalLength = 88F;
-            scaleIndicatorState93.Name = "Colored";
-            scaleIndicatorState93.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer2;
-            scaleIndicatorState93.StartValue = 12F;
-            scaleIndicatorState94.IntervalLength = 12F;
-            scaleIndicatorState94.Name = "Empty";
-            scaleIndicatorState94.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState243.IntervalLength = 88F;
+            scaleIndicatorState243.Name = "Colored";
+            scaleIndicatorState243.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer2;
+            scaleIndicatorState243.StartValue = 12F;
+            scaleIndicatorState244.IntervalLength = 12F;
+            scaleIndicatorState244.Name = "Empty";
+            scaleIndicatorState244.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent4.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState93,
-            scaleIndicatorState94});
+            scaleIndicatorState243,
+            scaleIndicatorState244});
             this.linearScaleStateIndicatorComponent4.ZOrder = 97;
             // 
             // linearScaleStateIndicatorComponent3
@@ -1600,16 +1627,16 @@
             this.linearScaleStateIndicatorComponent3.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent3.Name = "Indicator2";
             this.linearScaleStateIndicatorComponent3.Size = new System.Drawing.SizeF(18.09888F, 5.865103F);
-            scaleIndicatorState95.IntervalLength = 92F;
-            scaleIndicatorState95.Name = "Colored";
-            scaleIndicatorState95.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer2;
-            scaleIndicatorState95.StartValue = 8F;
-            scaleIndicatorState96.IntervalLength = 8F;
-            scaleIndicatorState96.Name = "Empty";
-            scaleIndicatorState96.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState245.IntervalLength = 92F;
+            scaleIndicatorState245.Name = "Colored";
+            scaleIndicatorState245.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer2;
+            scaleIndicatorState245.StartValue = 8F;
+            scaleIndicatorState246.IntervalLength = 8F;
+            scaleIndicatorState246.Name = "Empty";
+            scaleIndicatorState246.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent3.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState95,
-            scaleIndicatorState96});
+            scaleIndicatorState245,
+            scaleIndicatorState246});
             this.linearScaleStateIndicatorComponent3.ZOrder = 98;
             // 
             // linearScaleStateIndicatorComponent2
@@ -1618,16 +1645,16 @@
             this.linearScaleStateIndicatorComponent2.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent2.Name = "Indicator1";
             this.linearScaleStateIndicatorComponent2.Size = new System.Drawing.SizeF(14.36786F, 5.865103F);
-            scaleIndicatorState97.IntervalLength = 96F;
-            scaleIndicatorState97.Name = "Colored";
-            scaleIndicatorState97.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer2;
-            scaleIndicatorState97.StartValue = 4F;
-            scaleIndicatorState98.IntervalLength = 4F;
-            scaleIndicatorState98.Name = "Empty";
-            scaleIndicatorState98.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState247.IntervalLength = 96F;
+            scaleIndicatorState247.Name = "Colored";
+            scaleIndicatorState247.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer2;
+            scaleIndicatorState247.StartValue = 4F;
+            scaleIndicatorState248.IntervalLength = 4F;
+            scaleIndicatorState248.Name = "Empty";
+            scaleIndicatorState248.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent2.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState97,
-            scaleIndicatorState98});
+            scaleIndicatorState247,
+            scaleIndicatorState248});
             this.linearScaleStateIndicatorComponent2.ZOrder = 99;
             // 
             // linearScaleStateIndicatorComponent1
@@ -1636,16 +1663,16 @@
             this.linearScaleStateIndicatorComponent1.IndicatorScale = this.linearScaleComponent1;
             this.linearScaleStateIndicatorComponent1.Name = "Indicator0";
             this.linearScaleStateIndicatorComponent1.Size = new System.Drawing.SizeF(12F, 5.865103F);
-            scaleIndicatorState99.IntervalLength = 100F;
-            scaleIndicatorState99.Name = "Colored";
-            scaleIndicatorState99.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer2;
-            scaleIndicatorState99.StartValue = 0.01F;
-            scaleIndicatorState100.IntervalLength = 0F;
-            scaleIndicatorState100.Name = "Empty";
-            scaleIndicatorState100.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
+            scaleIndicatorState249.IntervalLength = 100F;
+            scaleIndicatorState249.Name = "Colored";
+            scaleIndicatorState249.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer2;
+            scaleIndicatorState249.StartValue = 0.01F;
+            scaleIndicatorState250.IntervalLength = 0F;
+            scaleIndicatorState250.Name = "Empty";
+            scaleIndicatorState250.ShapeType = DevExpress.XtraGauges.Core.Model.StateIndicatorShapeType.Equalizer0;
             this.linearScaleStateIndicatorComponent1.States.AddRange(new DevExpress.XtraGauges.Core.Model.IIndicatorState[] {
-            scaleIndicatorState99,
-            scaleIndicatorState100});
+            scaleIndicatorState249,
+            scaleIndicatorState250});
             this.linearScaleStateIndicatorComponent1.ZOrder = 100;
             // 
             // linearScaleBackgroundLayerComponent1
@@ -1709,33 +1736,6 @@
             this.digitalBackgroundLayerComponent1.ShapeType = DevExpress.XtraGauges.Core.Model.DigitalBackgroundShapeSetType.Style11;
             this.digitalBackgroundLayerComponent1.TopLeft = new DevExpress.XtraGauges.Core.Base.PointF2D(20F, 0F);
             this.digitalBackgroundLayerComponent1.ZOrder = 1000;
-            // 
-            // guna2GradientButton4
-            // 
-            this.guna2Transition1.SetDecoration(this.guna2GradientButton4, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2GradientButton4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton4.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton4.FillColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton4.FillColor2 = System.Drawing.Color.Transparent;
-            this.guna2GradientButton4.Font = new System.Drawing.Font("Poppins Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton4.ForeColor = System.Drawing.Color.Black;
-            this.guna2GradientButton4.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(150)))), ((int)(((byte)(255)))));
-            this.guna2GradientButton4.HoverState.FillColor2 = System.Drawing.Color.DodgerBlue;
-            this.guna2GradientButton4.Image = global::HomeGuna.Properties.Resources.Robotic_Arm;
-            this.guna2GradientButton4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2GradientButton4.ImageOffset = new System.Drawing.Point(2, 0);
-            this.guna2GradientButton4.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2GradientButton4.Location = new System.Drawing.Point(0, 294);
-            this.guna2GradientButton4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2GradientButton4.Name = "guna2GradientButton4";
-            this.guna2GradientButton4.Size = new System.Drawing.Size(197, 46);
-            this.guna2GradientButton4.TabIndex = 7;
-            this.guna2GradientButton4.Text = "Servo Arm";
-            this.guna2GradientButton4.TextOffset = new System.Drawing.Point(10, 4);
-            this.guna2GradientButton4.Click += new System.EventHandler(this.guna2GradientButton4_Click);
             // 
             // DHT
             // 

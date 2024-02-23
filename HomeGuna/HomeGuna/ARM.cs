@@ -117,9 +117,7 @@ namespace HomeGuna
 
         private void ARM_Load(object sender, EventArgs e)
         {
-            guna2ComboBox1.Items.Clear();
-            guna2ComboBox1.Items.AddRange(SerialPort.GetPortNames());
-
+          
 
         }
 
@@ -149,6 +147,7 @@ namespace HomeGuna
                 if (serialPort1.IsOpen)
                 {
                     guna2CircleProgressBar1.Value = 100;
+                    serialTimer.Start();
                 }
                 else
                 {
@@ -166,6 +165,7 @@ namespace HomeGuna
             try
             {
                 serialPort1.Close();
+                serialTimer.Stop();
                 if (serialPort1.IsOpen)
                 {
                     guna2CircleProgressBar1.Value = 100;
@@ -188,6 +188,52 @@ namespace HomeGuna
 
         private void label1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void serialTimer_Tick(object sender, EventArgs e)
+        {
+            try
+            {
+                cmd = "a" + jawVal.ToString() + "A" + "b" + jawBaseVal.ToString() + "B"+"\r";
+                Console.WriteLine(cmd);
+
+                serialPort1.WriteLine(cmd);
+            } catch
+            {
+
+            }
+        }
+
+        private void guna2TrackBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
+        String cmd;
+        int jawVal, jawBaseVal;
+        private void guna2TrackBar1_ValueChanged(object sender, EventArgs e)
+        {
+            jawVal = guna2TrackBar1.Value;
+            guna2CircleProgressBar2.Value = jawVal;
+            guna2TextBox4.Text = guna2TrackBar1.Value.ToString();
+        }
+
+        private void guna2TrackBar2_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
+
+        private void guna2TrackBar2_ValueChanged(object sender, EventArgs e)
+        {
+            jawBaseVal = guna2TrackBar2.Value;
+            guna2CircleProgressBar3.Value = jawBaseVal;
+            guna2TextBox5.Text = guna2TrackBar2.Value.ToString();
+        }
+
+        private void guna2ComboBox1_DropDown(object sender, EventArgs e)
+        {
+            guna2ComboBox1.Items.Clear();
+            guna2ComboBox1.Items.AddRange(SerialPort.GetPortNames());
 
         }
     }
