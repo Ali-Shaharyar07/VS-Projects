@@ -100,3 +100,6 @@ E:\Code\VS\HomeGuna\HomeGuna\obj\Debug\HomeGuna.Form2.resources
 E:\Code\VS\HomeGuna\HomeGuna\obj\Debug\HomeGuna.Form3.resources
 E:\Code\VS\HomeGuna\HomeGuna\obj\Debug\HomeGuna.ARM.resources
 E:\Code\VS\HomeGuna\HomeGuna\obj\Debug\HomeGuna.load1.resources
+E:\Code\VS\HomeGuna\HomeGuna\bin\Debug\Guna.Charts.WinForms.dll
+E:\Code\VS\HomeGuna\HomeGuna\bin\Debug\Guna.Charts.WinForms.xml
+E:\Code\VS\HomeGuna\HomeGuna\obj\Debug\HomeGuna.chart.resources

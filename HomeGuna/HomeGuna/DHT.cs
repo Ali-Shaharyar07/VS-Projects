@@ -202,8 +202,8 @@ namespace HomeGuna
         private void ArduinoData(object sender, EventArgs e)
         {
                 cdata = serialPort1.ReadLine();
-                cdata.Trim();
-                File.AppendAllText(fileloc,DateTime.Now.ToString("d - MMM - yyy") +"|{" + DateTime.Now.ToString("HH : mm : ss ") + "}|" + cdata);
+                //cdata.Trim();
+              //  File.AppendAllText(fileloc,DateTime.Now.ToString("d - MMM - yyy") +"|{" + DateTime.Now.ToString("HH : mm : ss ") + "}|" + cdata);
 
                 int humidity, sLen, last, HIC, HIF;
                 float tempC, tempF;
@@ -348,6 +348,17 @@ namespace HomeGuna
             this.Hide();
             ARM frm2 = new ARM();
             frm2.Show();
+        }
+
+        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            chart chartform = new chart();
+            chartform.Show();
         }
     }
 }
